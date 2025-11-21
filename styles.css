@@ -43,6 +43,9 @@ html {
 body {
   font-family: "Roboto", sans-serif;
 }
+.link {
+  text-decoration: none;
+}
 
 .main-nav {
   color: white;
@@ -54,12 +57,27 @@ body {
   font-size: 1.2rem;
   list-style: none;
   position: absolute;
-  top: 15%;
+  top: 15.5%;
   left: 34%;
   font-weight: 500;
 }
 
 .main-nav-link {
-  text-decoration: none;
   color: white;
+}
+
+.section-welcome {
+  background-color: #f2e0d4;
+  border: 2px solid silver;
+  padding: 1.2rem;
+  width: 50rem;
+  text-align: center;
+}
+
+.welcome-button-list {
+  list-style: none;
+}
+
+.welcome-redes-list {
+  list-style: none;
 }
