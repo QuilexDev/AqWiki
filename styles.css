@@ -123,16 +123,96 @@ body {
   color: white;
   border: 2px solid black;
 }
-.welcome-redes-list {
+.welcome-redes {
+  display: flex;
   list-style: none;
+  gap: 0.5rem;
+  justify-content: center;
 }
 
+.welcome-redes-link {
+  text-decoration: none;
+  font-size: 2rem;
+}
 .want-help {
   font-size: 1.4rem;
   margin-bottom: 1rem;
+  font-weight: 500;
 }
-
+.welcome-p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.welcome-redes-link {
+  margin-bottom: 1 rem;
+}
+.join {
+  background-color: #b01;
+  height: 2.5rem;
+  width: 5rem;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 0.3rem 0.6rem;
+  color: white;
+  border-radius: 3px;
+}
+.twitter {
+  height: 2.5rem;
+  background-color: #1da1f2;
+  padding: 0.3rem 0.6rem;
+  border-radius: 3px;
+}
+.discord {
+  height: 2.5rem;
+  background-color: #5865f2;
+  padding: 0.3rem 0.6rem;
+  border-radius: 3px;
+}
 hr {
   width: 50%;
   margin-left: 11rem;
+}
+
+.announcements-section {
+  overflow-y: auto;
+  margin-top: 10rem;
+
+  border: 2px solid silver;
+  width: 50rem;
+  height: 30rem;
+  text-align: center;
+  background-color: #dac0b6;
+}
+
+.title-a {
+  height: 4rem;
+  background-color: #f0d5ca;
+  padding-top: 1.5rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.a-container {
+  margin-top: 2rem;
+  display: flex;
+  align-items: flex-start;
+  overflow-y: auto;
+  gap: 1.5rem;
+  border-bottom: 5px solid #f2e0d4;
+}
+
+.announcements-perfil {
+  background-color: #f2e0d4;
+  border-radius: 6px;
+}
+.announcements-perfil img {
+  border-top-left-radius: 6px;
+  border-top-right+-radius: 6px;
+}
+
+.announcements-content {
+  background-color: #f0d5ca;
+  padding: 2rem 1rem;
+}
+.text-red {
+  color: #b01;
 }
