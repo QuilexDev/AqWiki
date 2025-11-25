@@ -42,6 +42,7 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 .link {
   text-decoration: none;
@@ -58,19 +59,35 @@ body {
   list-style: none;
   position: absolute;
   top: 15%;
-  left: 31%;
+  left: 34%;
   font-weight: 500;
 }
 
 .main-nav-link {
-  color: white;
+  color: rgb(255, 255, 255);
+}
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+
+  margin: 15rem 1rem 10rem 5rem;
+  margin-top: 15rem;
+  margin-left: 5rem;
 }
 
 .section-welcome {
   background-color: #f2e0d4;
   border: 2px solid silver;
   padding: 1.2rem;
-  width: 50rem;
+  border-radius: 7px;
+
+  height: 45rem;
   text-align: center;
 }
 
@@ -175,11 +192,10 @@ hr {
 
 .announcements-section {
   overflow-y: auto;
-
+  border-radius: 7px;
   border: 2px solid silver;
-  width: 50rem;
-  height: 30rem;
   text-align: center;
+  height: 45rem;
   background-color: #dac0b6;
 }
 
@@ -220,7 +236,7 @@ hr {
 
 .section-items {
   background-color: #f2e0d4;
-  width: 50rem;
+  border-radius: 7px;
 }
 
 .title-item {
@@ -234,8 +250,21 @@ hr {
   gap: 1rem;
 }
 .item {
+  align-items: center;
+  padding: 0 2.5rem;
   display: flex;
   gap: 1rem;
+  background-color: #770c0c;
+  border-radius: 6px;
+}
+
+.item-icon {
+  height: 65%;
+}
+
+.item-name {
+  font-size: 1.2rem;
+  color: white;
 }
 
 .text-red {
