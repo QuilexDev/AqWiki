@@ -57,8 +57,8 @@ body {
   font-size: 1.2rem;
   list-style: none;
   position: absolute;
-  top: 16.5%;
-  left: 34%;
+  top: 15%;
+  left: 31%;
   font-weight: 500;
 }
 
@@ -175,7 +175,6 @@ hr {
 
 .announcements-section {
   overflow-y: auto;
-  margin-top: 10rem;
 
   border: 2px solid silver;
   width: 50rem;
@@ -206,13 +205,39 @@ hr {
 }
 .announcements-perfil img {
   border-top-left-radius: 6px;
-  border-top-right+-radius: 6px;
+  border-top-right-radius: 6px;
 }
 
 .announcements-content {
   background-color: #f0d5ca;
   padding: 2rem 1rem;
 }
+.perfil-name {
+  text-align: start;
+  margin-left: 0.8rem;
+  font-size: 1.2rem;
+}
+
+.section-items {
+  background-color: #f2e0d4;
+  width: 50rem;
+}
+
+.title-item {
+  font-size: 1.6rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.grid-template-columns--4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.item {
+  display: flex;
+  gap: 1rem;
+}
+
 .text-red {
   color: #b01;
 }
