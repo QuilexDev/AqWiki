@@ -43,6 +43,7 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
+  background-color: rgba(223, 223, 223, 0.678);
 }
 .link {
   text-decoration: none;
@@ -66,6 +67,14 @@ body {
 .main-nav-link {
   color: rgb(255, 255, 255);
 }
+
+.main-nav-link.active:link,
+.main-nav-link.active:visited {
+  background-color: #ffffff;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  color: #b01;
+}
+
 .submenu {
   position: absolute;
   top: 100%;
@@ -80,6 +89,15 @@ body {
   z-index: 100;
 }
 
+.submenu li {
+  border-bottom: 1px solid rgb(167, 164, 164);
+}
+.submenu a {
+  display: inline-block;
+  margin: 0.3rem 0 0.2rem 1rem;
+  text-decoration: none;
+  color: #b01;
+}
 .submenu.active {
   opacity: 1;
   visibility: visible;
@@ -97,7 +115,7 @@ body {
   gap: 1rem;
 
   margin: 15rem 1rem 10rem 5rem;
-  margin-top: 15rem;
+  margin-top: 14rem;
   margin-left: 5rem;
 }
 
