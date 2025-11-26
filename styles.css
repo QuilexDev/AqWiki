@@ -66,6 +66,26 @@ body {
 .main-nav-link {
   color: rgb(255, 255, 255);
 }
+.submenu {
+  position: absolute;
+  top: 100%;
+  background-color: #ffffff;
+  min-width: 15rem;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  list-style: none;
+  visibility: hidden;
+  transform: translateY(-10px);
+
+  z-index: 100;
+}
+
+.submenu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
 .main {
   display: flex;
   flex-direction: row-reverse;
