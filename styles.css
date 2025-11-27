@@ -305,6 +305,11 @@ hr {
   color: white;
 }
 
+.aside-menu {
+  margin-top: 2rem;
+  border-right: 1px solid rgba(0, 0, 0, 0.075);
+}
+
 .text-red {
   color: #b01;
 }
